@@ -229,7 +229,6 @@
 
         &:hover, &focus {
             border-color: var(--color-accent-secondary);
-            background-color: antiquewhite;
         }
 
         @media screen and (min-width: $tablet) {
@@ -254,8 +253,8 @@
             animation-name: changeColor;
             animation-duration: 1000ms;
             animation-timing-function: ease-in-out;      
-            animation-iteration-count: infinite;
-        }
+            animation-iteration-count: infinite;           
+        }      
     }
 
     &__address-dep {
